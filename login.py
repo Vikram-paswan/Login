@@ -28,7 +28,7 @@ if not os.path.exists("/data/data/com.termux/files/usr/share/user.txt"):
 else:
 	while(1):
 		try:
-			f=open("/data/data/com.termux/files/usr/share/user.txt","r")
+			f=open("/data/data/com.termux/files/usr/libexec/termux/command-no>","r")
 			username=f.readline()
 			username=username.strip()
 			password=f.readline()
